@@ -26,7 +26,7 @@ body {
 }
 
 #inicio { 
-    height: 200vh; /* Altura de la sección */
+    height: 100vh; /* Altura de la sección */
     position: relative;
 }
 
