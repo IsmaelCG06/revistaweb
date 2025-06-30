@@ -25,9 +25,23 @@ body {
     overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
+.animar-subida {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.animado {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #inicio { 
-    height: 200vh; /* Altura de la sección */
+    height: 90vh; /* Altura de la sección */
     position: relative;
+    background-image: url('imagenes-isma/portada\ de\ inicio\ .jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
 }
 
 
@@ -35,7 +49,7 @@ body {
   display: block;
   position: relative;
   left: 300px;
-  top: 40px;
+  top: 50px;
   font-size: 3rem;
 }
 
@@ -47,3 +61,317 @@ body {
   left: 100px;
   font-size: x-large;
 }
+
+.cajas {
+  position: relative;
+  top: 60px;
+  left: -30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.caja {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.caja:hover {
+  transform: scale(1.05);
+}
+
+.caja a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+#historia { 
+    height: 100vh; /* Altura de la sección */
+    position: relative;
+    background-image: url('imagenes-isma/historia.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#historia h2 {
+  position: relative;
+  top: 0px;
+  left: 600px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#historia > p {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+
+}
+
+/* Seccion para el bicentenario */
+#bicentenario { 
+    height: 100vh; /* Altura de la sección */
+    position: relative;
+    background-image: url('imagenes-isma/bicenteraio.2.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#bicentenario h2 {
+  position: relative;
+  top: 0px;
+  left: 600px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#bicentenario h3 {
+  position: relative;
+  top: 0px;
+  left: 40px;
+  font-size: 1.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#bicentenario  li {
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.2rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+}
+
+#bicentenario  p {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+}
+
+
+
+#himno { 
+    height: 120vh; /* Altura de la sección */ 
+    position: relative;
+    background-image: url('imagenes-isma/himno.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#himno h2 {
+  position: relative;
+  top: 50px;
+  left: 500px;
+  font-size: 1.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#himno h3 {
+  position: relative;
+  top: 40px;
+  left: 1200px;
+  font-size: 1.2rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#sirueta-mujer {
+  position: relative;
+  top: -20px;
+  left: 1150px;
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px; /* Mantiene la proporción de la imagen */
+}
+
+#himno > p {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.2; /* Mejora la legibilidad */
+}
+
+.himno-foto {
+  position: relative;
+  height: 250px; /* Altura de la sección */
+  width: 250px;
+  top: 20px;
+  left: 600px;
+  display: flex;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+
+
+
+#escudo { 
+    height: 100vh; /* Altura de la sección */
+    position: relative;
+    background-image: url('imagenes-isma/escudo.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#escudo h2 {
+  position: relative;
+  top: 100px;
+  left: 615px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#escudo > p {
+  position: relative;
+  top: 120px;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+#escudo > h3 {
+  position: relative;
+  top: 150px;
+  left: 1200px;
+  font-size: 1.2rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#escudo > img {
+  position: relative;
+  top: 100px;
+  left: 1150px;
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px; /* Mantiene la proporción de la imagen */
+}
+
+
+#estructuraorganica { 
+    height: 100vh; /* Altura de la sección */
+    position: relative;
+    background-image: url('imagenes-isma/estructura.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#estructuraorganica h2 {
+  position: relative;
+  top: -50px;
+  left: 400px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#estructuraorganica h3 {
+  position: relative;
+  top: -30px;
+  left: 50px;
+  font-size: 1.5rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+#estructuraorganica > img {
+  position: relative;
+  top: -450px;
+  left: 700px;
+  width: 300px; /* Ajusta el tamaño según sea necesario */
+  height: 500px; /* Mantiene la proporción de la imagen */
+  width: 500px;
+}
+
+#estructuraorganica-lista {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 2.5; /* Mejora la legibilidad */
+}
+
+
+
+
+#serviciosbienestar { 
+    height: 105vh; /* Altura de la sección */
+    position: relative;
+    background-image: url('imagenes-isma/cultura.1.png'); /* Opacidad para dar un efecto de superposición */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+#serviciosbienestar h2 {
+  position: relative;
+  top: -30px;
+  left: 500px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#serviciosbienestar h3 {
+  position: relative;
+  top: -10px;
+  left: 350px;
+  font-size: 2.0rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+.galeria-secciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  width: 250px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 150px; /* Altura uniforme */
+  object-fit: cover; /* Recorta si es necesario */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.item img:hover {
+  transform: scale(1.05);
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+
+
