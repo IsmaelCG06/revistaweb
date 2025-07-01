@@ -37,11 +37,8 @@ body {
 }
 
 #inicio { 
-<<<<<<< HEAD
     height: 90vh; /* Altura de la sección */
-=======
     height: 100vh; /* Altura de la sección */
->>>>>>> 3be54e069b5c5cfc9f8e6161248e1dd71a29a924
     position: relative;
     background-image: url('imagenes-isma/portada\ de\ inicio\ .jpg');
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
@@ -377,5 +374,156 @@ body {
 
 
 
+#biblioteca{
 
+      background-image: url('imagenes1/bibliotecaimg.jpg');
+      background-size: cover;
+
+}
+
+#biblioteca h2 {
+  position: relative;
+  top: 0px;
+  left: 600px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#biblioteca p {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+}
+
+
+
+#acreditacion {
+      background-image: url(imagenes1/fondo0.jpg);
+      background-size: cover;
+}
+ 
+
+#mujer{
+
+      background-image: url(imagenes1/mujeres.jpg);
+      background-size: cover;
+
+}
+
+#mujer h2 {
+  position: relative;
+  top: 0px;
+  left: 500px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#mujer p {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1; /* Mejora la legibilidad */
+} 
+
+
+
+#bibliografia {
+
+      background-image: url(imagenes1/fondo0.jpg);
+      background-size: cover;
+
+}
+
+#bibliografia h2 {
+  position: relative;
+  top: 0px;
+  left: 600px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#links {
+  position: relative;
+  top: 0px;
+  left: 40px;
+  font-size: 1.1rem;
+  color: #000000; /* Cambia el color del texto */
+  line-height: 1.8; /* Mejora la legibilidad */
+}
+
+.acreditacionimg{
+
+      align-items: center;
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 35px;
+      
+}
+
+.acreditacionimg img{
+      height: 40vh;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10vh;
+}
+
+
+
+#etica{
+
+background-image: url(imagenes1/etica.jpg);
+background-size: cover;
+
+}
+
+#etica h2 {
+  position: relative;
+  top: 0px;
+  left: 550px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#tecnica{
+
+background-image: url(imagenes1/Untitled\ Project.jpg);
+background-size: cover;
+
+}
+
+#tecnica h2 {
+  position: relative;
+  top: 0px;
+  left: 550px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
+
+#vida img{
+
+height: 30vh;
+display: grid;
+align-items: center;
+justify-content: center;
+margin-left: 70vh;
+}
+
+#proyecto{
+      background-image: url(imagenes1/escudoUdc.jpg);
+      background-size: cover; 
+}
+
+#proyecto h2 {
+  position: relative;
+  top: 0px;
+  left: 550px;
+  font-size: 2.5rem;
+  color: #000000; /* Cambia el color del texto */
+}
 
